@@ -5,9 +5,9 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mitchellknoth/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mknoth197)
 
-### 🚀 Software Developer | API Enthusiast | Problem Solver
+### ☁️ Cloud Engineer | DevOps Advocate | Infrastructure Builder
 
-*Building things that make a difference, one commit at a time* ✨
+*Accelerating the software delivery lifecycle from PR to production* 🚀
 
 </div>
 
@@ -15,20 +15,22 @@
 
 ## 🙋‍♂️ About Me
 
-```javascript
-const mitchell = {
-    pronouns: "he/him",
-    code: ["JavaScript", "TypeScript", "Python"],
-    interests: ["Web Development", "APIs", "System Design"],
-    currentFocus: "Building scalable applications",
-    funFact: "I can explain the difference between REST and gRPC... over coffee ☕"
-};
+```yaml
+mitchell:
+  role: Cloud Engineer
+  passions:
+    - DevOps & Best Practices
+    - Cloud Infrastructure
+    - Cloud Networking
+  expertise: Enabling teams to deploy to production
+  mission: Accelerating the software delivery lifecycle
+  funFact: I love turning complex deployments into one-click workflows ⚡
 ```
 
-- 🔭 Currently working on **portfolio projects** and exploring new technologies
-- 🌱 Always learning something new in the ever-evolving tech landscape
-- 💡 Passionate about clean code and efficient solutions
-- ⚡ Love building tools that solve real problems
+- ☁️ Passionate about **Cloud Infrastructure** and building scalable, resilient systems
+- 🔄 Champion of **DevOps best practices** and CI/CD pipelines
+- 🌐 Deep expertise in **Cloud Networking** and secure architectures
+- 🚀 Enabling teams to ship code **faster and safer** from PR to production
 
 ---
 
@@ -36,11 +38,18 @@ const mitchell = {
 
 <div align="center">
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+### Cloud & Infrastructure
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+### DevOps & CI/CD
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
@@ -83,7 +92,7 @@ const mitchell = {
 
 <div align="center">
 
-### 💬 *"Code is like humor. When you have to explain it, it's bad."* – Cory House
+### 💬 *"The best CI/CD pipeline is the one nobody has to think about."*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=mknoth197&color=blueviolet&style=flat-square)
 
