@@ -19,6 +19,7 @@ mitchell:
   role: Cloud Software Engineer
   passions:
     - DevOps & Best Practices
+    - AI Agents
     - Cloud Infrastructure
     - Cloud Networking
   mission: Enabling Development Teams to do their jobs quicker and more effectively
