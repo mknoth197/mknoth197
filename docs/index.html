@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mitchell Knoth — 4x AWS Certified Cloud Software Engineer at John Deere. Building developer experience tooling, cloud infrastructure, and AI agents." />
+  <meta name="keywords" content="Mitchell Knoth, Cloud Engineer, AWS, DevOps, AI Agents, John Deere, Developer Experience, Terraform, Kubernetes" />
+  <meta name="author" content="Mitchell Knoth" />
+
+  <meta property="og:title" content="Mitchell Knoth — Cloud Software Engineer" />
+  <meta property="og:description" content="Accelerating the SDLC from PR to production. 4x AWS Certified. DevOps + AI Agents + Cloud Infrastructure." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://mknoth197.github.io/mknoth197/" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mitchell Knoth — Cloud Software Engineer" />
+  <meta name="twitter:description" content="Accelerating the SDLC from PR to production." />
+
+  <title>Mitchell Knoth — Cloud Software Engineer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0e1a'/%3E%3Ctext x='50' y='66' font-family='monospace' font-size='52' font-weight='700' text-anchor='middle' fill='%2300e5d1'%3EMK%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a href="#top" class="nav__brand"><span class="nav__brand-bracket">[</span>MK<span class="nav__brand-bracket">]</span></a>
+    <ul class="nav__links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#stack">stack</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#projects">projects</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+    <button class="nav__theme" id="themeToggle" aria-label="Toggle theme">
+      <span class="nav__theme-icon">◐</span>
+    </button>
+  </nav>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__terminal">
+        <div class="hero__terminal-bar">
+          <span class="dot dot--red"></span>
+          <span class="dot dot--amber"></span>
+          <span class="dot dot--green"></span>
+          <span class="hero__terminal-title">~/mitch — zsh</span>
+        </div>
+        <div class="hero__terminal-body">
+          <p class="line"><span class="prompt">$</span> whoami</p>
+          <p class="line out" id="typed">mitchell-knoth</p>
+          <p class="line"><span class="prompt">$</span> cat role.txt</p>
+          <p class="line out">Cloud Software Engineer @ John Deere</p>
+          <p class="line"><span class="prompt">$</span> echo $MISSION</p>
+          <p class="line out accent">Accelerating the SDLC from PR to production.</p>
+          <p class="line"><span class="prompt">$</span> <span class="cursor"></span></p>
+        </div>
+      </div>
+
+      <div class="hero__intro">
+        <p class="hero__eyebrow">Hi, I'm</p>
+        <h1 class="hero__title">Mitchell <span class="hero__title-accent">Knoth</span>.</h1>
+        <p class="hero__sub">I build the cloud infrastructure and developer experience tooling that lets engineering teams ship faster — and safer.</p>
+        <div class="hero__badges">
+          <span class="badge">4&times; AWS Certified</span>
+          <span class="badge">Cloud Engineer</span>
+          <span class="badge">DX Advocate</span>
+        </div>
+        <div class="hero__cta">
+          <a href="#contact" class="btn btn--primary">Get in touch</a>
+          <a href="https://github.com/mknoth197" class="btn btn--ghost" target="_blank" rel="noopener">GitHub →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <header class="section__header">
+        <span class="section__num">01</span>
+        <h2 class="section__title">About</h2>
+        <span class="section__rule"></span>
+      </header>
+
+      <div class="about">
+        <div class="about__copy">
+          <p>I'm a cloud software engineer at <strong>John Deere</strong>, focused on the platforms and pipelines that move code from a pull request all the way to production. I care a lot about making the boring parts invisible so teams can focus on the interesting work.</p>
+          <p>My day-to-day lives at the intersection of <strong>cloud infrastructure</strong>, <strong>secure networking</strong>, and — increasingly — <strong>AI agents</strong> that augment the SDLC.</p>
+          <blockquote>"The best CI/CD pipeline is the one nobody has to think about."</blockquote>
+        </div>
+
+        <aside class="about__card">
+<pre><code><span class="t-key">mitchell</span>:
+  <span class="t-key">role</span>: <span class="t-val">Cloud Software Engineer</span>
+  <span class="t-key">company</span>: <span class="t-val">John Deere</span>
+  <span class="t-key">certs</span>: <span class="t-val">4&times; AWS</span>
+  <span class="t-key">passions</span>:
+    - <span class="t-val">DevOps &amp; Best Practices</span>
+    - <span class="t-val">AI Agents</span>
+    - <span class="t-val">Cloud Infrastructure</span>
+    - <span class="t-val">Cloud Networking</span>
+  <span class="t-key">mission</span>: &gt;
+    Enabling development teams
+    to do their jobs quicker
+    and more effectively.</code></pre>
+        </aside>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <header class="section__header">
+        <span class="section__num">02</span>
+        <h2 class="section__title">Tech stack</h2>
+        <span class="section__rule"></span>
+      </header>
+
+      <div class="stack">
+        <div class="stack__group">
+          <h3>Languages</h3>
+          <ul class="chips">
+            <li>Python</li><li>Java</li><li>TypeScript</li><li>JavaScript</li><li>Go</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <h3>Cloud &amp; infra</h3>
+          <ul class="chips">
+            <li>AWS</li><li>Terraform</li><li>Kubernetes</li><li>Helm</li><li>VPC / Networking</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <h3>DevOps &amp; CI/CD</h3>
+          <ul class="chips">
+            <li>Docker</li><li>GitHub Actions</li><li>ArgoCD</li><li>Jenkins</li>
+          </ul>
+        </div>
+        <div class="stack__group">
+          <h3>AI &amp; agents</h3>
+          <ul class="chips">
+            <li>Claude</li><li>MCP</li><li>LangChain</li><li>Agent SDKs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <header class="section__header">
+        <span class="section__num">03</span>
+        <h2 class="section__title">Experience</h2>
+        <span class="section__rule"></span>
+      </header>
+
+      <ol class="timeline">
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__company">John Deere</span>
+              <span class="timeline__when">Present</span>
+            </div>
+            <h3 class="timeline__role">Cloud Software Engineer</h3>
+            <p>Building the platforms and golden paths that take Deere's engineering teams from PR to production. Cloud infrastructure, secure networking, and developer experience tooling.</p>
+          </div>
+        </li>
+        <li class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__company">AWS Certifications</span>
+              <span class="timeline__when">Ongoing</span>
+            </div>
+            <h3 class="timeline__role">4&times; AWS Certified</h3>
+            <p>Continuously deepening expertise across compute, networking, security, and architecture on AWS.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section id="projects" class="section">
+      <header class="section__header">
+        <span class="section__num">04</span>
+        <h2 class="section__title">Projects</h2>
+        <span class="section__rule"></span>
+      </header>
+
+      <div class="projects">
+        <article class="project">
+          <header class="project__head">
+            <span class="project__icon">☁️</span>
+            <h3>SDLC Acceleration Platform</h3>
+          </header>
+          <p>Internal developer platform that compresses the path from pull request to production deploy — golden paths, paved roads, and a lot of YAML you never have to write.</p>
+          <ul class="project__tags">
+            <li>AWS</li><li>Terraform</li><li>GitHub Actions</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <header class="project__head">
+            <span class="project__icon">🤖</span>
+            <h3>AI Agents for DevEx</h3>
+          </header>
+          <p>Experimenting with AI agents that triage CI failures, draft IaC, and answer "why is my pipeline red?" before a human has to ask.</p>
+          <ul class="project__tags">
+            <li>Claude</li><li>MCP</li><li>Python</li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <header class="project__head">
+            <span class="project__icon">🌐</span>
+            <h3>Cloud Networking Patterns</h3>
+          </header>
+          <p>Reusable, secure-by-default networking modules — VPCs, transit, egress, and zero-trust ingress — packaged so teams adopt the right pattern without reading a 90-page doc.</p>
+          <ul class="project__tags">
+            <li>AWS VPC</li><li>Terraform</li><li>Security</li>
+          </ul>
+        </article>
+      </div>
+      <p class="projects__note">More on <a href="https://github.com/mknoth197" target="_blank" rel="noopener">GitHub →</a></p>
+    </section>
+
+    <section id="contact" class="section section--contact">
+      <header class="section__header">
+        <span class="section__num">05</span>
+        <h2 class="section__title">Get in touch</h2>
+        <span class="section__rule"></span>
+      </header>
+
+      <div class="contact">
+        <p>Want to talk about cloud platforms, DevEx, AI agents, or just trade pipeline horror stories? My inbox is open.</p>
+        <div class="contact__links">
+          <a class="btn btn--primary" href="https://www.linkedin.com/in/mitchellknoth/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://github.com/mknoth197" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Built with HTML, CSS, and a healthy respect for static sites. <span class="footer__sep">·</span> &copy; <span id="year"></span> Mitchell Knoth</p>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
